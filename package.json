@@ -1,0 +1,38 @@
+{
+  "name": "cnippet-aos",
+  "version": "1.0.4",
+  "description": "A lightweight animation on scroll/load library built with Motion",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "animation",
+    "scroll",
+    "motion",
+    "aos"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+        "type": "git",
+        "url": "https://github.com/cnippet-dev/cnippet-aos"
+      },
+  "peerDependencies": {
+    "motion": "^12.23.12",
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "typescript": "^5.0.0",
+    "motion": "^12.23.12",
+    "react": "^18.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
