@@ -1,0 +1,37 @@
+{
+  "name": "cnippet-aos",
+  "version": "1.0.7",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "lint": "eslint . --max-warnings 0",
+    "check-types": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [
+    "animation",
+    "scroll",
+    "motion",
+    "aos"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "motion": "^12.23.25",
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "motion": "^12.23.26",
+    "react": "19.2.3",
+    "typescript": "^5.9.3"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
