@@ -51,6 +51,9 @@
       "version": "1.0.7",
       "devDependencies": {
         "@types/react": "^19.2.7",
+        "@typescript-eslint/eslint-plugin": "^8.26.0",
+        "@typescript-eslint/parser": "^8.26.0",
+        "eslint": "^9.17.0",
         "motion": "^12.23.26",
         "react": "19.2.3",
         "typescript": "^5.9.3",
